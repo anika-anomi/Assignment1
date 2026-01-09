@@ -58,10 +58,10 @@ nav .menu a{
     padding: 115.5px 120px 179.5px 120px;
 }
 #banner .container {
+    
     max-width: 1360px;
     align-items: center;
     justify-content: center;
-    padding: ;
 }
 #banner .container .banner-content h1{
     font-size: 72px;
@@ -95,4 +95,62 @@ nav .menu a{
             font-size: 16px;
             font-weight: 500;
             margin-bottom: 2rem;
+}
+
+#about .about-container{
+    
+    max-width: 1360px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .about-container .info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 44px 120px;
+    
+}
+#about .about-container .info .info-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 24px;
+    border-radius: 8px;
+    width: 322px;
+    height: 300px;
+    opacity: 1;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+
+}
+#about .about-container .info .info-card h4{
+    font-family: Inter, sans-serif;
+    font-weight: semi-bold;
+    font-size: 24px;
+}
+#about .about-container .info .info-card p{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+    
+}
+/*section-heading{
+    height: 152px;
+}*/
+.section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 116px;
+}
+.section-heading p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 16px;
+    font-size: 400;
 }
