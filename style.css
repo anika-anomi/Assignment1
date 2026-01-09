@@ -46,13 +46,32 @@ nav .menu a{
     cursor: pointer;
     margin-right: 120px;
 }
+.btn:hover{
+	background: whitesmoke;
+	color: #001931;;
+}
+.btn1{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600; 
+    cursor: pointer;
+}
+.btn1:hover{
+    background: whitesmoke;
+    color: #001931;;
+}
 
 #banner{
     /*margin: 70px 120px 134px 120px;*/
-    align-items: middle;
+    align-items: center;
     justify-content: center;
+    text-align: center;
     /*padding: 70px 120px 134px 120px;*/
-    background-image: url("../images/hero-image.png");
+    background-image: url("../images/hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 115.5px 120px 179.5px 120px;
@@ -81,7 +100,6 @@ nav .menu a{
     margin: 2rem auto;*/
 }
 #banner .banner-image button{
-    max-width: 1360px;
     padding: 32px, 447.5px;
 }
 
@@ -168,6 +186,19 @@ nav .menu a{
     height: 600px;
     border-radius: 12px;
 }
+#features .features-container .features-text h2{
+    margin-top: 16px;
+    margin-bottom: 16px;;
+}
+#features .features-container .features-text p{   
+    margin-bottom: 40px;
+}
+#features .features-container .features-text .features-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: none;
+}
 #join{
     padding: 0 120px 120pxx 120px;
     text-align: center;
@@ -180,7 +211,6 @@ nav .menu a{
     padding: 80px 40px 80px 40px;
     justify-content: center;
     align-items: center;
-    
 }
 footer{
     background-color: #001931;
@@ -194,9 +224,7 @@ footer{
     
     padding: 120px 120px 164px 120px;
     justify-content: space-between;
-    align-items: center;
-    
-    
+    align-items: center;    
 }
 .footer-container .footer-body{
     display: flex;
