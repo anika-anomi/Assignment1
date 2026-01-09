@@ -67,11 +67,10 @@ nav .menu a{
 
 #banner{
     /*margin: 70px 120px 134px 120px;*/
-    align-items: center;
-    justify-content: center;
+    
     text-align: center;
     /*padding: 70px 120px 134px 120px;*/
-    background-image: url("../images/hero-bg.png");
+    background-image: url("./images/hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 115.5px 120px 179.5px 120px;
@@ -133,6 +132,7 @@ nav .menu a{
     
 }
 #about .about-container .info .info-card{
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr;
     gap: 16px;
@@ -186,12 +186,18 @@ nav .menu a{
     height: 600px;
     border-radius: 12px;
 }
+#features .features-container .features-text{
+    margin-top: 102px;
+    margin-bottom: 102px;
+    margin-left: 60px;
+}
 #features .features-container .features-text h2{
     margin-top: 16px;
     margin-bottom: 16px;;
 }
 #features .features-container .features-text p{   
     margin-bottom: 40px;
+    color: #627382;
 }
 #features .features-container .features-text .features-list{
     display: flex;
