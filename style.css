@@ -52,7 +52,7 @@ nav .menu a{
     align-items: middle;
     justify-content: center;
     /*padding: 70px 120px 134px 120px;*/
-    background: url(../images/hero-image.png);
+    background-image: url("../images/hero-image.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 115.5px 120px 179.5px 120px;
